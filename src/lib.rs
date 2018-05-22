@@ -25,6 +25,9 @@ pub struct GeoInfo {
     pub time_zone: String,
 }
 
+/// Queries api for geolocation info.
+/// 'api_key' The api key provided from ipinfodb, needed for making requests against api.
+/// 'ip' The ip to query geolocation for, optional, if left out, the api will query current's ip geolocation.
 pub fn query(api_key: &str, ip: Option<IpAddr>) -> Result<GeoInfo, Error> {
     let client = Client::new();
 

@@ -2,6 +2,8 @@
 name = "ipinfodb"
 version = "0.1.0"
 authors = ["Richard Hozák <r.hozak@seznam.cz"]
+license = "MIT/Apache-2.0"
+homepage = "https://github.com/zxey/ipinfodb-rs"
 
 [dependencies]
 reqwest = "0.8"

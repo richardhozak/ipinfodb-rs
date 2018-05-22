@@ -14,3 +14,6 @@ ipinfodb::query("YOUR_API_TOKEN", None);
 ipinfodb::query("YOUR_API_TOKEN", Some("8.8.8.8".parse()?));
 
 ```
+
+## License
+MIT/Apache-2.0

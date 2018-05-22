@@ -2,7 +2,7 @@
 Rust wrapper for ipinfodb api.
 
 ## Usage
-```
+```rust
 extern crate ipinfodb;
 
 // query for current ip

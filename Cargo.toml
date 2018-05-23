@@ -5,6 +5,7 @@ authors = ["Richard Hozák <r.hozak@seznam.cz"]
 license = "MIT/Apache-2.0"
 homepage = "https://github.com/zxey/ipinfodb-rs"
 keywords = ["ip", "location", "geolocation"]
+description = "Rust wrapper for ipinfodb geolocation api."
 
 [dependencies]
 reqwest = "0.8"

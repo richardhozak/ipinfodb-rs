@@ -6,6 +6,7 @@ license = "MIT/Apache-2.0"
 homepage = "https://github.com/zxey/ipinfodb-rs"
 keywords = ["ip", "location", "geolocation"]
 description = "Rust wrapper for ipinfodb geolocation api."
+readme = "README.md"
 
 [dependencies]
 reqwest = "0.8"
